@@ -1,0 +1,30 @@
+$Body_color:#bcbcbc;
+@mixin class
+{
+	font-size:18px;
+	color:darken(#def,40%);
+	text-align:center;
+}
+body
+{
+	background:$Body_color;
+	
+	h1,h2,h3
+	{
+		color:#545;
+	}
+	
+	a
+	{
+		text-decoration:none;
+		@include class;
+	}
+}
+
+footer
+{
+	background:darken($Body_color,60%);
+	width:100%;
+	height:200px;
+}
+

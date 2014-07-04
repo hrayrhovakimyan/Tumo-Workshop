@@ -1,0 +1,14 @@
+body {
+  background: #bcbcbc; }
+  body h1, body h2, body h3 {
+    color: #545; }
+  body a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1188ff;
+    text-align: center; }
+
+footer {
+  background: #232323;
+  width: 100%;
+  height: 200px; }
